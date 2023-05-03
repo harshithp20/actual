@@ -25,7 +25,8 @@ public class ReadDataFromMySqlNonSelectQuery {
 		
 		//Step-4- Execute statement/Query
 		
-		int result = stat.executeUpdate(query);
+		int result = stat.executeUpdate(query);//primitive datatype content level comparison
+                                              //non-primitive datatype address level comparison
 		
 		if(result==1)
 		{
