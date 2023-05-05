@@ -1,61 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="4" total="6" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-03T20:39:47 IST" name="Default suite" finished-at="2023-05-03T20:39:49 IST" duration-ms="1221">
+  <suite started-at="2023-05-05T14:12:48 IST" name="Suite" finished-at="2023-05-05T14:14:06 IST" duration-ms="78198">
     <groups>
+      <group name="regressiontest">
+        <method signature="CeateCampaignwithProductTest.CeateCampaignwithProduct()[pri:0, instance:campaigns.CeateCampaignwithProductTest@2d1ef81a]" name="CeateCampaignwithProduct" class="campaigns.CeateCampaignwithProductTest"/>
+      </group> <!-- regressiontest -->
+      <group name="smoketest">
+        <method signature="CreateCampaignTest.CreateCampaign()[pri:0, instance:campaigns.CreateCampaignTest@5542c4ed]" name="CreateCampaign" class="campaigns.CreateCampaignTest"/>
+      </group> <!-- smoketest -->
     </groups>
-    <test started-at="2023-05-03T20:39:47 IST" name="Default test" finished-at="2023-05-03T20:39:49 IST" duration-ms="1221">
-      <class name="practice.Dataproviderusingexcel">
-        <test-method signature="readData(java.lang.String,java.lang.String)[pri:0, instance:practice.Dataproviderusingexcel@1a451d4d]" started-at="2023-05-03T20:39:49 IST" name="readData" data-provider="getData" finished-at="2023-05-03T20:39:49 IST" duration-ms="18" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Banglore]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Hassan]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2023-05-05T14:12:48 IST" name="Test" finished-at="2023-05-05T14:14:06 IST" duration-ms="78198">
+      <class name="campaigns.CeateCampaignwithProductTest">
+        <test-method is-config="true" signature="BS()[pri:0, instance:campaigns.CeateCampaignwithProductTest@2d1ef81a]" started-at="2023-05-05T14:12:48 IST" name="BS" finished-at="2023-05-05T14:12:48 IST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- readData -->
-        <test-method signature="readData(java.lang.String,java.lang.String)[pri:0, instance:practice.Dataproviderusingexcel@1a451d4d]" started-at="2023-05-03T20:39:49 IST" name="readData" data-provider="getData" finished-at="2023-05-03T20:39:49 IST" duration-ms="7" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Hassan]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Mysore]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- BS -->
+        <test-method is-config="true" signature="BT()[pri:0, instance:campaigns.CeateCampaignwithProductTest@2d1ef81a]" started-at="2023-05-05T14:12:48 IST" name="BT" finished-at="2023-05-05T14:12:48 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- readData -->
-        <test-method signature="readData(java.lang.String,java.lang.String)[pri:0, instance:practice.Dataproviderusingexcel@1a451d4d]" started-at="2023-05-03T20:39:49 IST" name="readData" data-provider="getData" finished-at="2023-05-03T20:39:49 IST" duration-ms="5" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Mysore]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Banglore]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- BT -->
+        <test-method is-config="true" signature="BC()[pri:0, instance:campaigns.CeateCampaignwithProductTest@2d1ef81a]" started-at="2023-05-05T14:12:48 IST" name="BC" finished-at="2023-05-05T14:12:51 IST" duration-ms="3051" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- readData -->
-      </class> <!-- practice.Dataproviderusingexcel -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- BC -->
+        <test-method is-config="true" signature="BM()[pri:0, instance:campaigns.CeateCampaignwithProductTest@2d1ef81a]" started-at="2023-05-05T14:12:51 IST" name="BM" finished-at="2023-05-05T14:12:57 IST" duration-ms="5864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BM -->
+        <test-method signature="CeateCampaignwithProduct()[pri:0, instance:campaigns.CeateCampaignwithProductTest@2d1ef81a]" started-at="2023-05-05T14:12:57 IST" name="CeateCampaignwithProduct" finished-at="2023-05-05T14:13:26 IST" duration-ms="29167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CeateCampaignwithProduct -->
+        <test-method is-config="true" signature="AM()[pri:0, instance:campaigns.CeateCampaignwithProductTest@2d1ef81a]" started-at="2023-05-05T14:13:26 IST" name="AM" finished-at="2023-05-05T14:13:33 IST" duration-ms="7167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AM -->
+        <test-method is-config="true" signature="AC()[pri:0, instance:campaigns.CeateCampaignwithProductTest@2d1ef81a]" started-at="2023-05-05T14:13:33 IST" name="AC" finished-at="2023-05-05T14:13:34 IST" duration-ms="642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AC -->
+        <test-method is-config="true" signature="AT()[pri:0, instance:campaigns.CeateCampaignwithProductTest@2d1ef81a]" started-at="2023-05-05T14:14:06 IST" name="AT" finished-at="2023-05-05T14:14:06 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AT -->
+        <test-method is-config="true" signature="AS()[pri:0, instance:campaigns.CeateCampaignwithProductTest@2d1ef81a]" started-at="2023-05-05T14:14:06 IST" name="AS" finished-at="2023-05-05T14:14:06 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AS -->
+      </class> <!-- campaigns.CeateCampaignwithProductTest -->
+      <class name="campaigns.CreateCampaignTest">
+        <test-method is-config="true" signature="BC()[pri:0, instance:campaigns.CreateCampaignTest@5542c4ed]" started-at="2023-05-05T14:13:34 IST" name="BC" finished-at="2023-05-05T14:13:36 IST" duration-ms="1539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BC -->
+        <test-method is-config="true" signature="BM()[pri:0, instance:campaigns.CreateCampaignTest@5542c4ed]" started-at="2023-05-05T14:13:36 IST" name="BM" finished-at="2023-05-05T14:13:44 IST" duration-ms="7913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BM -->
+        <test-method signature="CreateCampaign()[pri:0, instance:campaigns.CreateCampaignTest@5542c4ed]" started-at="2023-05-05T14:13:44 IST" name="CreateCampaign" finished-at="2023-05-05T14:14:04 IST" duration-ms="20054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateCampaign -->
+        <test-method is-config="true" signature="AM()[pri:0, instance:campaigns.CreateCampaignTest@5542c4ed]" started-at="2023-05-05T14:14:04 IST" name="AM" finished-at="2023-05-05T14:14:05 IST" duration-ms="1843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AM -->
+        <test-method is-config="true" signature="AC()[pri:0, instance:campaigns.CreateCampaignTest@5542c4ed]" started-at="2023-05-05T14:14:05 IST" name="AC" finished-at="2023-05-05T14:14:06 IST" duration-ms="343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AC -->
+      </class> <!-- campaigns.CreateCampaignTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

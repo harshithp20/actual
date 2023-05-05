@@ -50,8 +50,19 @@
     <version>8.0.33</version>
 </dependency>
 
+<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>5.0.9</version>
+</dependency>
 
-</dependencies>
+
+    	<dependency>
+    		<groupId>BasicSeleniumFramework</groupId>
+    		<artifactId>BasicSeleniumFramework</artifactId>
+    		<version>0.0.1-SNAPSHOT</version>
+    	</dependency>
+    </dependencies>
  
  <profiles>
 	 <profile>
