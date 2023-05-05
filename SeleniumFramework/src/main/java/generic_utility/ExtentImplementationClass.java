@@ -1,7 +1,6 @@
 package generic_utility;
 
 import java.io.File;
-
 import org.apache.commons.io.FileUtils;
 import org.apache.poi.hpsf.Date;
 import org.openqa.selenium.OutputType;
